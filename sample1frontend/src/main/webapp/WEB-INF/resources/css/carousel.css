@@ -1,0 +1,47 @@
+
+#myCarousel {
+  position: relative;
+  overflow: hidden;
+  font-size: 150%;
+}
+#myCarousel .slide-1, 
+#myCarousel .slide-2,
+#myCarousel .slide-3,
+#myCarousel .slide-4 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+	margin-bottom: 0;
+	border: 0;
+}
+#myCarousel .carousel-inner .item .carousel-caption {
+  font-family: "Palatino";
+  top: 20%;
+  bottom: inherit;
+}
+#myCarousel .carousel-indicators li,
+#myCarousel .carousel-indicators li.active {
+  position: relative;
+  width: 100px;
+  height: 8px;  
+}
+#myCarousel .carousel-indicators li > .thumbnail {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  display: none;
+  opacity: 0;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+#myCarousel .carousel-indicators li:hover > .thumbnail {
+  display: block;
+  opacity: .8;
+}
+
+
+}
